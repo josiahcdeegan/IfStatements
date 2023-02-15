@@ -31,4 +31,6 @@ if(s .equals("1")) {
 
 }
 //== is considered an operator in Java, is mostly used to compare the reference values and objects, 
-//We can use it with objects and primitives, 
+//We can use it with objects and primitives, The can’t compare conflicting objects, It cannot be overridden.
+//Equals() is considered as a method in Java, It is used to compare the actual content of the object, 
+//We cannot use it with primitives, It can compare conflicting objects, It can be overridden.
